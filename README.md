@@ -50,10 +50,11 @@ Aqui dejo algunos ejemplos de datos que estan en los csv reducidos que podemos u
 
 Ejemplos de usuarios con juegos existentes en la tabla: SALTTHEW0UND, evcentric, doctr, GodLoveGuru, Ghoustik
 
-Ejemplos id de juegos: 359450, 761140, 643980, 670290, 767400
+Ejemplos id de juegos: 761140, 643980, 767400
 
 Generos que podemos utilizar: Action, Casual, Indie, Simulation, Strategy, Free to Play, RPG, Sports, Adventure, nan, Racing, Early Access, Massively Multiplayer, Animation &amp; Modeling, Video Production, Utilities, Web Publishing, Education, Software Training, Design &amp; Illustration, Audio Production, Photo Editing, Accounting. IMPORTANTE: Hay géneros que tal vez nos den error por la falta de datos.
 
 *Link de la API*: https://proyectoadriansb.onrender.com/
+
 *Video explicativo*: 
 
