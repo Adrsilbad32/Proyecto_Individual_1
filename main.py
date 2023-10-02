@@ -16,13 +16,13 @@ df2= pd.read_csv('review_ml.csv') #Abro el csv de las reseñas para ML
 @app.get("/")
 def idex():
 	return {'Mensaje': 'Bienvenidos a mi API.  Para su uso solo tienen que copiar los links y en el ultimo / poner los valores que desean pero solo funciona con lo que dice, por ejemplo si dice genero no va a funcionar poniendo anio',
-            'Anio mas jugado del genero elegido': 'https://proyectoadrianSB.onrender.com/PlayTimeGenre/Genero_deseado',
-            'Usuario que mas jugo el genero elegido': 'https://proyectoadrianSB.onrender.com//UserForGenre/Genero_deseado',
-            'Juegos con mas resenias en el anio elegido': 'https://proyectoadrianSB.onrender.com/UsersRecommend/Anio_deseado',
-            'Juegos con menos resenias en el anio elegido': 'https://proyectoadrianSB.onrender.com/UsersNotRecommend/Anio_deseado',
-            'Cantidad de resenias positivas, neutrales y negativas en el anio elegido': 'https://proyectoadrianSB.onrender.com/Sentiment_Analysis/Anio_deseado',
-            'Juegos similares al juego elegido': 'https://proyectoadrianSB.onrender.com/recomendacion_juego/Id_juego',
-            'Recomendacion de juegos a usuarios': 'https://proyectoadrianSB.onrender.com/recomendacion_usuario/Id_usuario'}
+            'Anio mas jugado del genero elegido': 'https://proyectoadriansb.onrender.com/PlayTimeGenre/Genero_deseado',
+            'Usuario que mas jugo el genero elegido': 'https://proyectoadriansb.onrender.com//UserForGenre/Genero_deseado',
+            'Juegos con mas resenias en el anio elegido': 'https://proyectoadriansb.onrender.com/UsersRecommend/Anio_deseado',
+            'Juegos con menos resenias en el anio elegido': 'https://proyectoadriansb.onrender.com/UsersNotRecommend/Anio_deseado',
+            'Cantidad de resenias positivas, neutrales y negativas en el anio elegido': 'https://proyectoadriansb.onrender.com/Sentiment_Analysis/Anio_deseado',
+            'Juegos similares al juego elegido': 'https://proyectoadriansb.onrender.com/recomendacion_juego/Id_juego',
+            'Recomendacion de juegos a usuarios': 'https://proyectoadriansb.onrender.com/recomendacion_usuario/Id_usuario'}
 @app.get("/PlayTimeGenre/{genero_deseado}")
 def PlayTimeGenre(genero_deseado:str):
     juegos_genero = juego[juego['genres'] == genero_deseado] # Filtra los juegos por el género deseado
