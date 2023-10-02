@@ -48,7 +48,7 @@ La herramienta utilizada fue: Scikit-Learn con las librerias: TfidfVectorizer, l
 
 Aqui dejo algunos ejemplos de datos que estan en los csv reducidos que podemos usar en los modelos de recomendación, podemos usar otros usuarios y juegos que se encuentren en los csv de ML siempre y cuando sean compatibles los datos. También aclaramos que la API esta en construcción ya que el objetivo del trabajo era entregar el MVP(Mínimo Producto Viable) por lo que puede andar medio lenta y tener errores de estructura.
 
-Ejemplos de usuarios con juegos existentes en la tabla: SALTTHEW0UND, evcentric, doctr, GodLoveGuru, Ghoustik
+Ejemplos de usuarios con juegos existentes en la tabla: SALTTHEW0UND, doctr, Ghoustik
 
 Ejemplos id de juegos: 761140, 643980, 767400
 
