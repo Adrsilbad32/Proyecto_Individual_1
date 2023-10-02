@@ -54,8 +54,6 @@ Ejemplos id de juegos: 359450, 761140, 643980, 670290, 767400
 
 Generos que podemos utilizar: Action, Casual, Indie, Simulation, Strategy, Free to Play, RPG, Sports, Adventure, nan, Racing, Early Access, Massively Multiplayer, Animation &amp; Modeling, Video Production, Utilities, Web Publishing, Education, Software Training, Design &amp; Illustration, Audio Production, Photo Editing, Accounting. IMPORTANTE: Hay géneros que tal vez nos den error por la falta de datos.
 
-*Link de la API*: https://proyecto-ml-ops-fabrizio-mazzucco.onrender.com/
+*Link de la API*: 
+*Video explicativo*: 
 
-*Video explicativo*: https://www.youtube.com/watch?v=7S7lbN0EPJU&t=7s
-
-*Mi linkedin*: www.linkedin.com/in/fabrizio-mazzucco-403b0825a
