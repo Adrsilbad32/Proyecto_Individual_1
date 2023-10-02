@@ -15,7 +15,7 @@ df = pd.read_csv('juego_ml.csv') #Abro el csv de los juegos para ML
 df2= pd.read_csv('review_ml.csv') #Abro el csv de las reseñas para ML
 @app.get("/")
 def idex():
-	return {'Mensaje': 'Bienvenidos a mi API.  Para su uso solo tienen que copiar los links y en el ultimo / poner los valores que desean pero solo funciona con lo que dice, por ejemplo si dice genero no va a funcionar poniendo anio',
+	return {'Mensaje': 'Bienvenidos a mi API. Para su uso solo tienen que copiar los links y en el ultimo / poner los valores que desean pero solo funciona con lo que dice, por ejemplo si dice genero no va a funcionar poniendo anio',
             'Anio mas jugado del genero elegido': 'https://proyectoadriansb.onrender.com/PlayTimeGenre/Genero_deseado',
             'Usuario que mas jugo el genero elegido': 'https://proyectoadriansb.onrender.com/UserForGenre/Genero_deseado',
             'Juegos con mas resenias en el anio elegido': 'https://proyectoadriansb.onrender.com/UsersRecommend/Anio_deseado',
