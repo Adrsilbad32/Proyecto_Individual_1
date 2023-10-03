@@ -4,7 +4,7 @@
 
 <p align=center><img src=https://static.vecteezy.com/system/resources/previews/020/975/557/original/steam-logo-steam-icon-transparent-free-png.png><p>
 
-**Introducción:**
+
 Este proyecto consiste en crear una API que utiliza un modelo de recomendación para Steam, una plataforma de videojuegos, basado en Machine Learning. El objetivo es crear un sistema de recomendación de videojuegos para usuarios y crear unas funciones que realicen consultas para satisfacer las inquietudes de la empresa entregando asi un MVP (Minimun Viable Product que en español se traduce a Mínimo Producto Viable). Importante responder a la pregunta ¿Qué es una API? Una API (Interfaz de Programación de Aplicaciones) es como un camarero en un restaurante que toma tu pedido, lo comunica a la cocina y te sirve la comida; es un conjunto de reglas que permite a diferentes aplicaciones hablar entre sí y compartir información de manera organizada.
 
 **Pasos del proyecto:**
@@ -44,15 +44,15 @@ def recomendacion_usuario(id de usuario): Ingresando el id de un usuario, deber�
 
 La herramienta utilizada fue: Scikit-Learn con las librerias: TfidfVectorizer, linear_kernel, cosine_similarity Tambien son consultables en la API
 
-**Para finalizar**
 
-Aqui dejo algunos ejemplos de datos que estan en los csv reducidos que podemos usar en los modelos de recomendación, podemos usar otros usuarios y juegos que se encuentren en los csv de ML siempre y cuando sean compatibles los datos. También aclaramos que la API esta en construcción ya que el objetivo del trabajo era entregar el MVP(Mínimo Producto Viable) por lo que puede andar medio lenta y tener errores de estructura.
+Aclaramos que la API esta en construcción ya que el objetivo del trabajo era entregar el MVP(Mínimo Producto Viable) por lo que puede andar medio lenta y tener errores de estructura.
 
-Ejemplos de usuarios con juegos existentes en la tabla: SALTTHEW0UND, doctr, Ghoustik
+Ejemplos id de usuarios con juegos existentes: SALTTHEW0UND, doctr, Ghoustik
 
 Ejemplos id de juegos: 761140, 643980, 767400
 
-Generos que podemos utilizar: Action, Casual, Indie, Simulation, Strategy, Free to Play, RPG, Sports, Adventure, nan, Racing, Early Access, Massively Multiplayer, Animation &amp; Modeling, Video Production, Utilities, Web Publishing, Education, Software Training, Design &amp; Illustration, Audio Production, Photo Editing, Accounting. IMPORTANTE: Hay géneros que tal vez nos den error por la falta de datos.
+A utilizar: Action, Casual, Indie, Simulation, Strategy, Free to Play, RPG, Sports, Adventure, nan, Racing, Early Access, Massively Multiplayer, Animation &amp; Modeling, Video Production, Utilities, Web Publishing, Education, Software Training, Design &amp; Illustration, Audio Production, Photo Editing, Accounting. IMPORTANTE: Hay géneros que tal vez nos den error por la falta de datos.
+
 
 *Link de la API*: https://proyectoadriansb.onrender.com/
 
